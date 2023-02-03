@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora_React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <h1>CALCULADORA</h1> 
+    <table Border ="1">
+    
+    <tr>
+        <td><button type="button"  onClick={Uno}>1</button></td>
+        <td><button type="button"  onClick={Dos}>2</button></td>
+        <td><button type="button"  onClick={Tres}>3</button></td>
+        <td><button type="button"  onClick={Sumar}>+</button></td>
+    </tr>
+    <tr>
+        <td><button type="button"  onClick={Cuatro}>4</button></td>
+        <td><button type="button"  onClick={Cinco}>5</button></td>
+        <td><button type="button"  onClick={Seis}>6</button></td>
+        <td><button type="button"  onClick={Restar}>-</button></td>
+  </tr>
+  <tr>
+        <td><button type="button"  onClick={Siete}>7</button></td>
+        <td><button type="button"  onClick={Ocho}>8</button></td>
+        <td><button type="button"  onClick={Nueve}>9</button></td>
+        <td><button type="button"  onClick={Multiplicar}>*</button></td>
+   </tr>
+   <tr>
+        <td><button type="button"  onClick={Cero}>0</button></td>
+        <td><button type="button"  onClick={eliminar}>C</button></td>
+        <td><button type="button"  onClick={Borrar}>⌫</button></td>
+        <td><button type="button"  onClick={Igual}>=</button></td>
+    </tr>
+   
+  </table>
+  </body>
+</html>
